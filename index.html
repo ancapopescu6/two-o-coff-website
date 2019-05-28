@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>DailyUI 03 Landing Page</title>
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+         <!-- Font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	</head>
+    
+	<body>
+        <!--Showcase and navigation -->
+        <div class="container">
+        <div id="showcase">
+            <header>
+                <!-- Navigation -->
+                <nav class="navbar" id="home">
+                    <!--Toggle btn -->
+                    <span class="navbar-toggle" id="js-navbar-toggle">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </span> 
+                    <!--Toggle btn ends -->
+                    
+                    <a href="#home" class="logo">
+                        <img src="https://user-images.githubusercontent.com/46563932/58399499-18eed880-8061-11e9-828e-aadbcb3a38c3.png" alt="logo two o'coff" >
+                    </a>
+                    <ul class="main-nav" id="js-menu">
+                        <li>
+                            <a href="#menu" class="nav-links">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="nav-links">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-links">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#book" class="nav-links btn" id="book_btn">Book a table</a>
+                        </li>
+                    </ul>
+                </nav><!-- .navbar ends -->
+            </header>     
+            
+            <div class="section-main">
+                
+                
+                <div class="hero">
+                    <div class="hero-img">
+                        <img src="https://user-images.githubusercontent.com/46563932/58399447-e349ef80-8060-11e9-8c73-99561d4997cd.png" alt="hero image">
+                    </div>
+                    
+                     <a href="#menu">
+                         <div class="check">
+                       
+                            <div id="check-menu-btn">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                            <div class="check-text">
+                                Check out the menu
+                            </div>
+                        
+                         </div>
+                    </a>
+                </div>   
+                
+                <div class="hero-small">
+                    <div class="hero-img-small">
+                        <img src="https://user-images.githubusercontent.com/46563932/58417193-b01d5580-808c-11e9-97a0-8e6d8480d168.jpg" alt="hero-image">
+                    </div>
+                    <a href="#menu">
+                         <div class="check-small">
+                       
+                            <div id="check-menu-btn-small">
+                                <i class="fas fa-arrow-down"></i>
+                            </div>
+                            <div class="check-text-small">
+                                Check out the menu
+                            </div>
+                        
+                         </div>
+                    </a>
+                </div>
+            </div>        
+         </div> <!-- .showcase ends -->
+        
+        </div>
+        
+        <!-- Menu section -->
+        <section id="menu" class="section">
+            <div class="container">
+                <h1 class="section-title">Menu</h1>
+                
+                <div class="menu-lists">
+                    <div class="menu-left">
+                        <h2 class="list-title">To drink</h2>
+                        <p>Cafe Latte<span> - $5.00</span></p>
+                        <p>Cafe Mocha<span> - $5.40</span></p>
+                        <p>Caramel Macchiato<span> - $6.30</span></p>
+                        <p>Cafe Americano<span> - $6.00</span></p>
+                        <p>Cappucino<span> - $7.10</span></p>
+                        <p>Double Espresso<span> - $7.50</span></p>
+                        <p>Espresso<span> - $6.80</span></p>
+                        <p>Iced Coffee<span> - $5.75</span></p>
+                        <p>Frappe Latte<span> - $8.75</span></p>
+                    </div>
+                    <div class="menu-right">
+                        <h2 class="list-title">To eat</h2>
+                        <p>Omelette with cheese and ham<span> - $9.00</span><br>
+                        <span>eggs, milk, goat cheese, ham</span></p>
+                        
+                        <p>Omelette with cheese and herbs<span> - $8.50</span><br>
+                        <span>eggs, milk, goat cheese, fresh herbs</span></p>
+                        
+                        <p>Hot sandwich<span> - $10.25</span><br>
+                        <span>white bread, butter, goat cheese, salami</span></p>
+                        
+                        <p>Milk and cereals<span> - $12.50</span><br>
+                        <span>milk, cereals</span></p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Book section -->
+        <section id="book" class="section">
+            <div class="container">
+                <div class="booking-bg">
+                    <h1 class="section-title">Book a Table</h1>
+                    <div class="booking-form">
+                        <div class="left-form">
+                            <div id="party-size">
+                            <h2>Party Size:</h2>
+                            
+                                <form>
+                                   <label>
+                                    <select class="select">
+                                        <option value="value1" selected="selected">For 4 persons</option>
+                                        <option value="value2">For 2 persons</option>
+                                        <option value="value3">For 3 persons</option>
+                                        <option value="value4">For 5 persons</option>
+                                        <option value="value5">For 6 persons</option>
+                                        <option value="value6">For 7 persons</option>
+                                        <option value="value7">For 8 persons</option>
+                                        <option value="value8">For 9 persons</option>
+                                        <option value="value9">For 10 persons</option>
+                                    </select>
+                                  </label>
+                                </form>                            
+                            </div> <!-- .party-size end -->
+                            
+                            <div id="date-booking">
+                            <h2>Date:</h2>
+                            
+                                <form>                         
+                                    <input type="date" name="dateofbirth" id="dateofbirth">
+                                  </label>                          
+                            </div> <!-- .date-booking end -->
+                        </div> <!-- .left-form end -->
+                        
+                        <div class="right-form">
+                            <div id="location">
+                            <h2>Location:</h2>
+                            
+                                <form>
+                                   <label>
+                                    <select class="select">
+                                        <option value="value1" selected="selected">On the terrace</option>
+                                        <option value="value2">Inside</option>
+                                    </select>
+                                  </label>
+                                </form>                            
+                            </div> <!-- .location end -->
+                            
+                            <div id="time-booking">
+                            <h2>Time:</h2>
+                            
+                                <form>
+                                   <label>
+                                    <select class="select">
+                                        <option value="value1" selected="selected">19:00</option>
+                                        <option value="value2">12:00</option>
+                                        <option value="value3">12:30</option>
+                                        <option value="value4">13:00</option>
+                                        <option value="value5">13:30</option>
+                                        <option value="value6">14:00</option>
+                                        <option value="value7">14:30</option>
+                                        <option value="value8">15:00</option>
+                                        <option value="value9">15:30</option>
+                                        <option value="value10">16:00</option>
+                                        <option value="value11">16:30</option>
+                                        <option value="value12">17:00</option>
+                                        <option value="value13">17:30</option>
+                                        <option value="value14">18:00</option>
+                                        <option value="value15">18:30</option>
+                                        <option value="value16">19:30</option>
+                                        <option value="value17">20:00</option>
+                                    </select>
+                                  </label>
+                                </form>                            
+                            </div> <!-- .time-booking end -->
+                            
+                        </div> <!-- .right=form end -->
+                           
+                    </div> <!-- .booking-form end -->
+                   
+                     <a href="#" alt="Find a table button"><div class="btn btn-primary" id="find-table-btn">Find a table</div></a> 
+                </div> <!-- .booking-bg end -->
+            </div> <!-- .container end -->
+        </section>
+        
+        <!-- Gallery section -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h1 class="section-title">Gallery</h1>
+                <div id="gallery-row-one">
+                   
+                        <img src="https://user-images.githubusercontent.com/46563932/58398322-65381980-805d-11e9-8178-4cb131895f8e.jpg" alt="image cafeteria" class = "container1" style="max-width:100%;cursor:pointer"  onclick="onClick(this)" class="modal-hover-opacity">
+                   
+                    <div id="two-items-col">
+                        
+                            <img src="https://user-images.githubusercontent.com/46563932/58398411-a7f9f180-805d-11e9-8624-aec9c6334968.jpg" alt="image cafeteria" class = "container1" style="max-width:100%;cursor:pointer"  onclick="onClick(this)" class="modal-hover-opacity">
+                        
+                        
+                            <img src="https://user-images.githubusercontent.com/46563932/58398746-ae3c9d80-805e-11e9-8286-a1370da1ba59.jpg" alt="image cafeteria" class = "container1" style="max-width:100%;cursor:pointer"  onclick="onClick(this)" class="modal-hover-opacity">
+                        
+                    </div>
+                    
+                        <img src="https://user-images.githubusercontent.com/46563932/58398772-c4e2f480-805e-11e9-94fa-0e9acfc703a2.jpg" alt="image cafeteria" class = "container1" style="max-width:100%;cursor:pointer"  onclick="onClick(this)" class="modal-hover-opacity">
+                    
+                </div> <!--gallery-row-one end -->
+                
+                <div id="gallery-row-two">
+                  
+                        <img src="https://user-images.githubusercontent.com/46563932/58398828-f065df00-805e-11e9-89ab-346369aaf5c3.jpg" alt="image cafeteria" class = "container1" style="max-width:100%;cursor:pointer"  onclick="onClick(this)" class="modal-hover-opacity">
+                  
+                   
+                        <img src="https://user-images.githubusercontent.com/46563932/58398917-21deaa80-805f-11e9-941e-56cf77adc600.jpg" alt="image cafeteria" class = "container1" style="max-width:100%;cursor:pointer"  onclick="onClick(this)" class="modal-hover-opacity">
+               
+                </div>
+                
+                <div id="gallery-row-three">
+                    
+                        <img src="https://user-images.githubusercontent.com/46563932/58398934-2acf7c00-805f-11e9-93b1-8a9bbbf4c307.jpg" alt="image cafeteria" class = "container1" style="max-width:100%;cursor:pointer"  onclick="onClick(this)" class="modal-hover-opacity">
+                 
+                  
+                        <img src="https://user-images.githubusercontent.com/46563932/58399006-64a08280-805f-11e9-8cee-a1864a869033.jpg" alt="image cafeteria" class = "container1" style="max-width:100%;cursor:pointer"  onclick="onClick(this)" class="modal-hover-opacity">
+                  
+                 
+                        <img src="https://user-images.githubusercontent.com/46563932/58399060-8e59a980-805f-11e9-970c-62365a23e224.jpg" alt="image cafeteria" class = "container1"style="max-width:100%;cursor:pointer"  onclick="onClick(this)" class="modal-hover-opacity">
+                    </div>
+                </div>
+                <div id="modal01" class="modal" onclick="this.style.display='none'">
+                   <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                   <div class="modal-content">
+                    <img id="img01" style="max-width:100%">
+                   </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h1 class="section-title">Find us here:</h1>
+                <div id="contact-info">
+                    <p>41A Garnet St, Reading, UK</p>
+                    <p>or give us a call: <span style="font-weight: bold;">+1 2347 552 818</span></p>
+                </div>
+                <img src="https://user-images.githubusercontent.com/46563932/58399428-d1684c80-8060-11e9-85ea-10a1ee6287c2.png"
+            </div>  <!-- .container end -->
+        </section>
+        <!-- Footer -->
+         <section id="footer" class="section">
+            <div class="container">
+                <ul id="footer-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#book">Book a Table</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div id="logo-designer">
+                    <a href="https://www.behance.net/ancapopescu" target="_blank">
+                        <img src="https://user-images.githubusercontent.com/46563932/58408466-8bb67e80-8076-11e9-8d58-11986f1900e9.png" alt="logo Anca Popescu"></a>
+                </div>
+                <div id="copyright-info">&copy; two o'coff 2019<br>I do not own the copyright for the images. Design and code by Anca Popescu for educational purposes.</div>
+            </div><!-- .container end -->
+        </section>
+             
+        
+        <script src="js/script.js" type="text/javascript" language="javascript"></script>
+    </body>
+    
+</html>
